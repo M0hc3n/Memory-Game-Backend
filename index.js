@@ -1,7 +1,7 @@
 const express = require("express")
 const app = express()
 
-require('dotenv').config({path: './config/.env'})
+require('dotenv').config({path: './.env'})
 
 const PORT = process.env.PORT || 5000
 
